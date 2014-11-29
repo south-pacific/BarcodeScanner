@@ -11,7 +11,6 @@
 #import <AVFoundation/AVFoundation.h>
 
 @interface BarcodeScan : CDVPlugin {}
-- (NSString*)isScanNotPossible;
 - (void)scan:(CDVInvokedUrlCommand*)command;
 - (void)encode:(CDVInvokedUrlCommand*)command;
 - (void)returnSuccess:(NSString*)scannedText format:(NSString*)format cancelled:(BOOL)cancelled callback:(NSString*)callback;
