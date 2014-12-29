@@ -1,7 +1,7 @@
 cordova-plugin-BarcodeScanner
 =========
 
-基于cordova插件形式条形码、二维码扫描插件。
+基于cordova插件形式开发的条形码、二维码扫描插件。
 
 
 说明：
